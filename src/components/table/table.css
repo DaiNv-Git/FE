@@ -1,0 +1,62 @@
+.custom-table-project .table-wrapper {
+    overflow-y: auto;
+}
+
+.custom-table-project table {
+    width: 100%;
+    min-width: 400px;
+    border-spacing: 0;
+}
+
+.custom-table-project thead {
+    background-color: var(--second-bg);
+}
+
+.custom-table-project tr {
+    text-align: left;
+}
+
+.custom-table-project th,
+td {
+    text-transform: capitalize;
+    padding: 15px 10px;
+}
+
+.custom-table-project tbody > tr:hover {
+    background-color: var(--main-color);
+    color: var(--txt-white);
+}
+
+.custom-table-project .table__pagination {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.custom-table-project .table__pagination-item ~ .table__pagination-item {
+    margin-left: 10px;
+}
+
+.custom-table-project .table__pagination-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.custom-table-project .table__pagination-item.active,
+.custom-table-project .table__pagination-item.active:hover {
+    background-color: var(--main-color);
+    color: var(--txt-white);
+    font-weight: 600;
+}
+
+.custom-table-project .table__pagination-item:hover {
+    color: var(--txt-white);
+    background-color: var(--second-color);
+}

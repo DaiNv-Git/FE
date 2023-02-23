@@ -1,0 +1,17 @@
+@import "../../scss/_variable.scss";
+.layout{
+    .header {
+        background-color: $background-color;
+    }
+    .layoutSlide{
+        background-color: $background-color;
+        min-height: 100vh;
+        .menu{
+            background-color: $background-color;
+            border-right: 0;
+            font-weight: bold;
+            color: #fff;
+            font-size: medium;
+        }
+    }
+}

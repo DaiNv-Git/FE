@@ -1,0 +1,50 @@
+[
+    {
+        "display_name": "Grade",
+        "route": "/grade",
+        "icon": "bx bx-radar"
+        
+    },
+    {
+        "display_name": "Subject",
+        "route": "/subject",
+        "icon": "bx bx-spa"
+        
+    },
+    {
+        "display_name": "Exam",
+        "route": "/exam",
+        "icon": "bx bxs-book-alt"
+        
+    },
+    {
+        "display_name": "Room Booking",
+        "route": "/room-booking",
+        "icon": "bx bxs-user-account"
+    },
+    {
+        "display_name": "Room Booking Request",
+        "route": "/admin/room-booking-request",
+        "icon": "bx bxs-user-account"
+    },
+    {
+        "display_name": "Paper Request",
+        "route": "/paper-request",
+        "icon": "bx bxs-buildings"
+    },
+    {
+        "display_name": "Time Table",
+        "route": "/time-table",
+        "icon": "bx bx-time"
+    },
+    {
+        "display_name": "Campus Map",
+        "route": "/campus-map",
+        "icon": "bx bx-map-alt"
+    },
+    {
+        "display_name": "Notification",
+        "route": "/notification",
+        "icon": "bx bxs-bell"
+    }
+]
